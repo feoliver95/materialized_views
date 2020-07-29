@@ -23,6 +23,7 @@ Ainda não existe dados na tabela, será carregada pela primeira vez no Big Quer
 Dados tabela dia 1:
 	
 
+![picture](https://github.com/feoliver95/materialized_views/blob/master/carga_1.PNG)
 
 ## Carga dia 2
 
@@ -30,6 +31,7 @@ Novos endereços inseridos, porem nenhuma atualização dos dados já existentes
 
 Dados tabela dia 2:
 
+![picture](https://github.com/feoliver95/materialized_views/blob/master/carga_2.PNG)
 
 ## Carga dia 3
 
@@ -38,6 +40,7 @@ Os id de endereço serão duplicado, sendo um antigo e um novo.
 
 Dados Tabela dia 3 :
 
+![picture](https://github.com/feoliver95/materialized_views/blob/master/carga_3.PNG)
 ## Views Deduplicadoras
 
 Para Garantir uma visão com os dados do endereço mais atualizado, criamos uma view materializada.
@@ -72,3 +75,4 @@ Obs: Lembrando que com a View materializada não faremos full scan toda vez que 
 
 Visão deduplicadora - Somente ultima versão dos dados:
 
+![picture](https://github.com/feoliver95/materialized_views/blob/master/view.PNG)
